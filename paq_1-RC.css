@@ -1,0 +1,116 @@
+body {  /* Body =  Corpo da página   */
+
+    background-color: rgb(82, 172, 247); /* background-color = cor de fundo  */
+    font: normal 15pt Arial ; /* font = fonte da letra do corpo */
+    background-image: url(bg2\.jpg)
+
+}
+
+header { /*  Header = cabeçalho */ 
+    color: rgb(182, 3, 83); /* color = cor ( cor  do cabeçalho )  */ 
+    text-align: center;  /* text-align =  alinahmento de texto */ 
+
+}
+
+.sec1 {  /* seção  */ 
+    background: rgb(241, 236, 236); /* background = fundo ( com cor branca)   */
+    border-radius: 10px ; /* border -radius =  arredonda as pontas da section */
+    padding: 15px; /* padding =  configura um espaço dentro da section  */
+    width: 350px; /*  width = largura  */
+    /* margin = centralização  */
+    height: 350px;
+    box-shadow: 5px 5px 10px rgb(114, 3, 86) ; /* box-shadow =  sombremamento da section   */
+    text-align: center;
+
+
+
+}
+
+.sec2 { /* seção 2 */
+
+    background: rgb(255, 255, 255); /* background = fundo ( com cor branca)   */
+    border-radius: 10px ; /* border -radius =  arredonda as pontas da section */
+    padding: 15px; /* padding =  configura um espaço dentro da section  */
+    width: 950px; /*  width = largura  */
+    height: 550px; /* Height = altura */
+    ;/* margin = centralização  */
+    box-shadow: 5px 5px 10px rgb(228, 154, 208) ; /* box-shadow =  sombremamento da section   */
+
+   
+
+
+}
+
+.btn {
+
+    background: rgb(84, 84, 150);
+    font-style:inherit;
+    font-size:28px;
+    padding: 15px;
+    border-radius: 50px;
+    width: 250px;
+    right: 800px;
+    
+
+
+
+
+}
+
+.secs_config {
+
+    display: flex;
+    justify-content: space-between ;
+}
+
+.fileira01 {
+
+    display:flex;
+    justify-content: space-between;
+
+
+}
+
+.fileira02 {
+
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.foto_princ {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.h1 {
+
+    color:rgb(255, 255, 255);
+font-family:sans-serif;
+font-size:65px;
+
+}
+
+.res_da_busca {
+
+    color: darkorchid;
+    font-weight: bolder;
+
+}
+
+.foto_logo{
+
+    width: 200px;
+
+}
+
+.rodape {
+
+    text-align: center;
+    color: rgb(21, 235, 164);
+    font-size: small;
+
+}

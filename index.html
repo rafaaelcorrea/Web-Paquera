@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="paq_1-RC.css"> <!-- criação de arquivo externo de CSS ( estilo. css) -->
+</head>
+
+
+<body>
+    <div id="caixa_mensagem" title="Aviso:">
+
+        <p>Oops!! você deve escolher uma das opções <br>
+        para realizar a busca. </p>
+
+    </div>
+    <header> <!-- Header = cabeçalho da página -->
+        <img src="teste4.png" class="foto_logo">
+        <h1 class="h1">Web Paquera</h1>
+        <hr>
+    </header>
+    <br>
+
+<div class="secs_config"> <!--Div criada para configurar as sections no CSS-->
+
+    <section class="sec1"> 
+
+        <h2> Encontre solteira(o)s<br>por todo o Brasil.</h2>
+        
+        Sou: <br><br>
+
+        <!-- Obs.: nos radios abaixo, usei o "name"  invés do "id" para a função  poder funcionar no JS . Também coloquei todos os "names" com o mesmo nome, pois com isto, o checked é selcionado apenas 1 vez, ou seja, apenas uma opção de escolha-->
+
+        Homem procurando mulher <input type="radio"name="sex_obj"><br>
+        <hr>
+        Mulher procurando homem <input type="radio"name= "sex_obj">
+        <br>
+        <br>
+    
+        <input type="button" value="Buscar" id="btn" class="btn" style="color: white;" onclick="buscar()" > <!--Botão buscar-->
+
+</section>
+
+<section  id="2sec"class ="sec2">
+
+<spam class="res_da_busca">Resultados da busca</spam>
+<hr>
+<br>
+<div id="tela1" >
+
+    
+ </div>
+<div class="fileira01"> <!--div criada  alinhar  a primeira fileira das fotos CSS-->
+
+
+
+<div id="perfil01">
+
+<img src="section2.png" alt="foto da tela de buscar" style="align-content: center;";"> 
+
+</div>
+
+
+<div id="perfil02">
+
+
+</div>
+
+<div id="perfil03">
+
+    
+    
+</div>
+
+
+
+</div>
+
+<div class="fileira02"> <!-- div criada para alinhar a segunda fileira de fotosno CSS-->
+
+<div id="perfil04">
+
+
+
+</div>
+
+<div id="perfil05">
+
+
+</div>
+
+<div id="perfil06">
+
+
+</div>
+
+</div>
+
+</section>
+
+</section>
+
+</div>
+    
+    <br>
+    <br>
+    <br>
+
+
+
+<footer> <!-- Footer = rodapé da página -->
+
+<p class="rodape"> <strong>&copy; Web Paquera - 2021 . Direitos reservados.</strong> </p>  <!-- &copy = símmbolo de corporation -->
+
+</footer>
+
+<script src="paq_2-RC.js"></script>
+</body>
+</html>
